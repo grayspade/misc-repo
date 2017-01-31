@@ -39,11 +39,13 @@
 }
 
 .imgContainer {
-    width: 400px;
+    	width: 400px;
+    	float: right;
+  	margin: 0 0 1em 1em;
 }
 
 /* resize images */
 .imgContainer img {
-    width: 100%;
-    height: auto;
+    	width: 100%;
+   	 height: auto;
 }
