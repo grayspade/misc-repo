@@ -37,3 +37,14 @@
 	position:relative;
 	top:1px;
 }
+
+.imgContainer {
+    width: 300px;
+    height: 120px;
+}
+
+/* resize images */
+.imgContainer img {
+    width: 100%;
+    height: auto;
+}
