@@ -49,3 +49,15 @@
     	width: 100%;
    	 height: auto;
 }
+
+.vidContainer {
+    	width: 100%;
+    	float: right;
+  	margin: 0 0 1em 1em;
+}
+
+/* resize iframe */
+.vidContainer img {
+    	width: 100%;
+   	 height: auto;
+}
