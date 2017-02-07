@@ -12,6 +12,7 @@
                 tabidentify: '',
                 activetab_bg: 'white',
                 inactive_bg: '#F5F5F5',
+                inactive_border_color: '#777777',
                 active_border_color: '#c1c1c1',
                 active_content_border_color: '#c1c1c1',
                 activate: function () {
@@ -90,7 +91,7 @@
                     $tabItem.attr('role', 'tab');
                     $tabItem.css({
                         'background-color': options.inactive_bg,
-                        'border-color': 'none'
+                        'border-color': options.inactive_border_color
                     });
 
                     //Assigning the 'aria-labelledby' attr to tab-content
@@ -153,14 +154,14 @@
                             });
                             $currentTab.removeClass('resp-tab-active').css({
                                 'background-color': options.inactive_bg,
-                                'border-color': 'none'
+                                'border-color': options.inactive_border_color
                             });
                             return false;
                         }
                         if (!$currentTab.hasClass('resp-tab-active') && $currentTab.hasClass('resp-accordion')) {
                             $respTabs.find('.resp-tab-active.' + options.tabidentify).removeClass('resp-tab-active').css({
                                 'background-color': options.inactive_bg,
-                                'border-color': 'none'
+                                'border-color': options.inactive_border_color
                             });
                             $respTabs.find('.resp-tab-content-active.' + options.tabidentify).slideUp().removeClass('resp-tab-content-active resp-accordion-closed');
                             $respTabs.find("[aria-controls=" + $tabAria + "]").addClass('resp-tab-active').css({
@@ -173,7 +174,7 @@
                             console.log('here');
                             $respTabs.find('.resp-tab-active.' + options.tabidentify).removeClass('resp-tab-active').css({
                                 'background-color': options.inactive_bg,
-                                'border-color': 'none'
+                                'border-color': options.inactive_border_color
                             });
 
                             $respTabs.find('.resp-tab-content-active.' + options.tabidentify).removeAttr('style').removeClass('resp-tab-content-active').removeClass('resp-accordion-closed');
