@@ -70,6 +70,7 @@
 .ca-img img {
     	width: 100%;
    	height: auto;
+	max-height: 400px;
 }
 .ca-close:hover{
 	opacity:1.0;
