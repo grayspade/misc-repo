@@ -64,6 +64,12 @@
 }
 .ca-img{
 	display: block;
+    	width: 300px;
+}
+/* resize images */
+.ca-img img {
+    	width: 100%;
+   	height: auto;
 }
 .ca-close:hover{
 	opacity:1.0;
