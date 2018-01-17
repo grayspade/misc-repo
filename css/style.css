@@ -111,8 +111,10 @@
 	margin:10px;
 	position:relative;
 }
-.ca-item h4 span{
+.ca-item h4 div{
 	display:block;
+	height: 400px;
+	overflow: auto;
 }
 .ca-item h4  span.ca-quote{
 	color:#f4eee3;
