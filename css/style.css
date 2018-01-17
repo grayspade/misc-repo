@@ -65,6 +65,8 @@
 .ca-img{
 	display: block;
     	width: 275px;
+	height: 200px;
+	overflow: hidden;
 }
 /* resize images */
 .ca-img img {
