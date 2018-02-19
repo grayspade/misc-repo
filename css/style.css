@@ -3,7 +3,7 @@
 	position:relative;
 	margin:25px auto 20px auto;
 	width:990px;
-	height:640px;
+	height:540px;
 }
 .ca-wrapper{
 	width:100%;
@@ -124,7 +124,7 @@
 	background:#b0ccc6;
 	position:absolute;
 	width:0px; /* expands to width of the wrapper minus 1 element */
-	height:630px;
+	height:530px;
 	top:5px;
 	text-align:left;
 	z-index:100;
