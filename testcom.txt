@@ -1,4 +1,3 @@
 test commit
 new line
-sadasd
 line 2 goes here
