@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 test commit
 new line
 line 2 goes here
@@ -13,3 +14,6 @@ blablabla213213sd
 
 
 test line 15
+=======
+test override
+>>>>>>> refs/remotes/origin/master
