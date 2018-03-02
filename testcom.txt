@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 test commit
 new line
 line 2 goes here
+blablabla213213sd
+=======
+test commit
+new line
+line 2 goes here
+beleeeeeeh
+>>>>>>> branch 'master' of https://github.com/grayspade/misc-repo.git
 blablabla213213sd
